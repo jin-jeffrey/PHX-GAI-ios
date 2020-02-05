@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		67401D3823EA3D3A0043C037 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67401D3723EA3D3A0043C037 /* HomeViewController.swift */; };
 		67493FCC23EA264E00BBB1B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67493FCB23EA264E00BBB1B9 /* AppDelegate.swift */; };
 		67493FCE23EA264E00BBB1B9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67493FCD23EA264E00BBB1B9 /* SceneDelegate.swift */; };
 		67493FD023EA264E00BBB1B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67493FCF23EA264E00BBB1B9 /* ViewController.swift */; };
 		67493FD323EA264E00BBB1B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67493FD123EA264E00BBB1B9 /* Main.storyboard */; };
 		67493FD523EA264E00BBB1B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67493FD423EA264E00BBB1B9 /* Assets.xcassets */; };
 		67493FD823EA264E00BBB1B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67493FD623EA264E00BBB1B9 /* LaunchScreen.storyboard */; };
+		67493FE123EA26CA00BBB1B9 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67493FE023EA26CA00BBB1B9 /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		67401D3723EA3D3A0043C037 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		67493FC823EA264E00BBB1B9 /* PHX Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PHX Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		67493FCB23EA264E00BBB1B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		67493FCD23EA264E00BBB1B9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +27,7 @@
 		67493FD423EA264E00BBB1B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		67493FD723EA264E00BBB1B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		67493FD923EA264E00BBB1B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67493FE023EA26CA00BBB1B9 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67493FE123EA26CA00BBB1B9 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +47,7 @@
 			children = (
 				67493FCA23EA264E00BBB1B9 /* PHX Test */,
 				67493FC923EA264E00BBB1B9 /* Products */,
+				67493FDF23EA26CA00BBB1B9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,8 +69,17 @@
 				67493FD423EA264E00BBB1B9 /* Assets.xcassets */,
 				67493FD623EA264E00BBB1B9 /* LaunchScreen.storyboard */,
 				67493FD923EA264E00BBB1B9 /* Info.plist */,
+				67401D3723EA3D3A0043C037 /* HomeViewController.swift */,
 			);
 			path = "PHX Test";
+			sourceTree = "<group>";
+		};
+		67493FDF23EA26CA00BBB1B9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				67493FE023EA26CA00BBB1B9 /* WebKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +156,7 @@
 				67493FD023EA264E00BBB1B9 /* ViewController.swift in Sources */,
 				67493FCC23EA264E00BBB1B9 /* AppDelegate.swift in Sources */,
 				67493FCE23EA264E00BBB1B9 /* SceneDelegate.swift in Sources */,
+				67401D3823EA3D3A0043C037 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,12 +7,20 @@
 //
 
 import UIKit
+import WebKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var Webview: WKWebView!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
+        let url = URL(string: "https://populationhealthexchange.org")
+        let request = URLRequest(url:url!)
+        
+        Webview.load(request)
+        
     }
 
 
